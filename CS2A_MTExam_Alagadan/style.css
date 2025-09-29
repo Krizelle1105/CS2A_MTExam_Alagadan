@@ -1,0 +1,142 @@
+body {
+
+    background: linear-gradient(rgb(205, 76, 97), rgb(154, 154, 180));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+ width: 90%;
+ margin: 0 auto;
+ overflow: hidden; 
+}
+
+header nav {
+  background: #000000;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('assets/Background.jpg') no-repeat center center/cover;
+  color: rgb(5, 5, 5);
+  padding: 3em;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+
+.card {
+  border: 1px solid #b65980;
+  padding: 1em;
+  background: #fff;
+  text-align: center;
+}
+
+footer {
+  background: #be75d4;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+form input, form textarea {
+  padding: 0.5em;
+  border: 1px solid #aa128e;
+  border-radius: 4px;
+}
+
+button {
+  background: #be54c8;
+  color: white;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Contact form styling */
+.contact form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+.contact form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #710245;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact form button:hover {
+  background: #93237a;
+}
+
+/* Aside (profile info) */
+.contact aside {
+  flex: 0.6;
+  text-align: center;
+}
+
+.contact aside img {
+  width: 150px;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  object-fit: cover;
+}

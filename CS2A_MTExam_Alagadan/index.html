@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilocos Sur Tourism & Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Ilocos Sur</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Discover the Beauty of Ilocos Sur</h2>
+    <p>Tourist Spots and Local Products of Ilocos Sur</p>
+  </section>
+
+  <!-- Section 1: Tourist Spots -->
+  <section>
+    <h2>Tourist Spots in Ilocos Sur</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/Calle Crisologo.jpg" width="300px" alt="Calle Crisologo">
+        <h3>Calle Crisologo, Vigan City</h3>
+        <p> Calle Crisologo in Vigan is a timeless street filled with Spanish-era houses and cobblestone roads. Walking here feels like stepping back into the colonial past of the Philippines. It is a must-visit destination for history lovers and photographers. </p>
+        <p>#intayunilocosur
+#OneIlocosSur
+#vigancity
+#callecrisologovigan
+#buhaynabato</p>
+      </div>
+      <div class="card">
+        <img src="assets/Sta. Maria Church.png" width="300px" alt="Santa Maria Church">
+        <h3>Santa Maria Church</h3>
+        <p>Sta. Maria Church, a UNESCO World Heritage Site, stands proudly on top of a hill. Built in the 18th century, its baroque architecture and massive buttresses highlight its beauty. It is both a sacred place and a symbol of Ilocos Sur’s rich history. </p>
+        <p>#ilocossurchurch
+#OneIlocosSur
+#staMariaChurch
+#bestdestinationtotravel
+#beautifuldestinationilocossur</p>
+      </div>
+      <div class="card">
+        <img src="assets/Vitalis Villas.jpg" width="300px" alt="Vitalis Villas">
+        <h3>Vitalis Villas, Santiago </h3>
+        <p>  Vitalis Villas in Santiago, Ilocos Sur is known as the “Santorini of the North.” Its whitewashed villas, overlooking the blue sea, offer the perfect escape for relaxation. Guests come here for the stunning views and luxury experience. </p>
+        <p>#nature_shoter 
+#OneIlocosSur
+#itsmorefuninilocossur
+#GoGoGoSantiago
+#SantoriniInIlocos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Local Products -->
+  <section>
+    <h2>Famous Local Products</h2>
+    <div class="grid-4">
+      <div class="card">
+        <img src="assets/Vigan Longganisa.jpg" width="200px" alt="Vigan Longganisa">
+        <h3>Vigan Longganisa</h3>
+        <p>₱150 / 12pcs</p>
+        <p> Vigan Longganisa is a small garlicky sausage famous for its strong and savory flavor. Best paired with rice and vinegar, it is a breakfast favorite among locals. Tourists often bring it home as pasalubong.</p>
+        <button onclick="addToCart('Vigan Longganisa')">Add to Cart</button>
+        <button onclick="remove('Vigan Longganisa')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Bagnet.jpg" width="200px" alt="Bagnet">
+        <h3>Bagnet</h3>
+        <p>₱300 / kilo</p>
+        <p> Bagnet is a deep-fried pork belly that is irresistibly crispy outside yet tender inside. It is often served with vegetables like pinakbet or enjoyed with rice alone. This dish is one of the most famous specialties in Ilocos. </p>
+        <button onclick="addToCart('Bagnet')">Add to Cart</button>
+        <button onclick="remove('Bagnet')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Balikutsa.png" width="200px" alt="Balikutsa">
+        <h3>Balikutsa</h3>
+        <p>₱170</p>
+        <p>A Balikutsa is a traditional Ilocano candy made from sugarcane. The melted sugar is pulled and twisted into spirals or sticks. It is a sweet reminder of the region’s simple yet delicious treats. </p>
+        <button onclick="addToCart('Balikutsa')">Add to Cart</button>
+        <button onclick="remove('Balikutsa')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Banig.jpg" width="200px" alt="Banig">
+        <h3>Banig</h3>
+        <p>₱500</p>
+        <p> Banig is a colorful handwoven mat made of palm or reed leaves. It is used for sleeping or sitting and is valued for its beautiful designs. Owning one is like bringing home a piece of Ilocano tradition. </p>
+        <button onclick="addToCart('Banig')">Add to Cart</button>
+        <button onclick="remove('Banig')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Abel.jpg" width="200px" alt="Abel">
+        <h3>Abel</h3>
+        <p>₱250</p>
+        <p> Abel is a handwoven textile proudly made in Ilocos. Known for its durability and colorful patterns, it represents the artistry of local weavers. Many tourists buy it as souvenirs or gifts. </p>
+        <button onclick="addToCart('Abel')">Add to Cart</button>
+        <button onclick="remove('Abel')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Bibingka.jpg" width="200px" alt="Native Bibingka">
+        <h3>Bibingka</h3>
+        <p>₱30</p>
+        <p> Native Bibingka is a soft rice cake cooked over charcoal. Made with coconut milk and sugar, it has a distinct smoky and sweet taste. It is usually enjoyed during snacks or festive occasions. </p>
+        <button onclick="addToCart('Bibingka')">Add to Cart</button>
+        <button onclick="remove('Etag')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Burnay.jpg" width="200px" alt="Burnay">
+        <h3>Burnay</h3>
+        <p>₱1000</p>
+        <p> Burnay jars are earthenware pots handmade in Vigan. They are traditionally used for storing food, water, and vinegar. Today, they are also collected as unique home decorations. </p>
+        <button onclick="addToCart('Burnay')">Add to Cart</button>
+        <button onclick="remove('Burnay')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Calamay.jpg" width="200px" alt="Calamay">
+        <h3>Calamay</h3>
+        <p>₱100/3packs </p>
+        <p> Calamay is a sticky rice delicacy sweetened with coconut milk and sugar. It is often packed in coconut shells or banana leaves. This treat is both filling and flavorful, perfect as pasalubong. </p>
+        <button onclick="addToCart('Calamay')">Add to Cart</button>
+        <button onclick="remove('Calamay')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Chicharon.jpg" width="200px" alt="Chicharon">
+        <h3>Chicharon</h3>
+        <p>₱75</p>
+        <p> Chicharon is a crunchy snack made of fried pork skin. It is often dipped in vinegar for extra flavor. In Ilocos, it is a popular pasalubong item for visitors. </p>
+        <button onclick="addToCart('Chicharon')">Add to Cart</button>
+        <button onclick="remove('Chicharon')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Ilocos Empanada.jpg" width="200px" alt="Ilocos Empanada">
+        <h3>Ilocos Empanada</h3>
+        <p>₱100 / kilo</p>
+        <p> Ilocos Empanada is a crunchy orange pastry filled with egg, vegetables, and longganisa. It is fried until crisp and served with Sukang Iloko. Many say your Ilocos trip is not complete without tasting this street food. </p>
+        <button onclick="addToCart('Ilocos Empanada')">Add to Cart</button>
+        <button onclick="remove('Ilocos Empanada')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Sukang Iloko.jpg" width="200px" alt="Sukang Iloko">
+        <h3>Sukang Iloko</h3>
+        <p>₱120</p>
+        <p> Sukang Iloko is a sugarcane vinegar with a bold, tangy taste. It is commonly used in Ilocano dishes and as a dipping sauce. Its strong flavor makes every meal more exciting. </p>
+        <button onclick="addToCart('Sukang Iloko')">Add to Cart</button>
+        <button onclick="remove('Sukang Iloko')">Remove</button>
+      </div>
+      <div class="card">
+        <img src="assets/Pakbet.jpg" width="200px" alt="Pinakbet">
+        <h3>Pinakbet</h3>
+        <p>₱100 / pack</p>
+        <p> Pinakbet is a famous Ilocano vegetable dish cooked with bagoong. It combines bitter melon, eggplant, and other vegetables into one savory meal. This dish reflects the healthy and flavorful cuisine of the region. </p>
+        <button onclick="addToCart('Pinakbet')">Add to Cart</button>
+        <button onclick="remove('Pinakbet')">Remove</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
